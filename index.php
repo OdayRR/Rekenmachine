@@ -12,8 +12,11 @@
 
         <form action="index.php" method="post"><br>
             
-            <input type="number" name="FirstN"><input type="text" name="Operator"><input type="number" name="SecondN">
-                <input type="submit" name="submit" value="Submit">
+            <input type="number" name="FirstN"placeholder="type the First number">
+            <input type="text" name="Operator"placeholder="type the Operator">
+            <input type="number" name="SecondN"placeholder="type the Second number">
+            <input type="submit" name="submit" value="Calculate">
+            
         </form>
 
         <?php
